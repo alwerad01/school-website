@@ -9,7 +9,7 @@ const Hero = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/hero-bg.png"
+                    src={`${import.meta.env.BASE_URL}hero-bg.png`}
                     alt="School Campus"
                     className="w-full h-full object-cover"
                 />

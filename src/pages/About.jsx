@@ -49,7 +49,7 @@ const About = () => {
                     <div className="flex flex-col md:flex-row items-center gap-12">
                         <div className="md:w-1/2">
                             <img
-                                src="/history.png"
+                                src={`${import.meta.env.BASE_URL}history.png`}
                                 alt="School History"
                                 className="rounded-lg shadow-xl"
                             />
@@ -77,7 +77,7 @@ const About = () => {
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/3 h-64 md:h-auto">
                                 <img
-                                    src="/principal.jpg"
+                                    src={`${import.meta.env.BASE_URL}principal.jpg`}
                                     alt="Principal"
                                     className="w-full h-full object-cover"
                                 />
