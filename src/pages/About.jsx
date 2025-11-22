@@ -49,7 +49,7 @@ const About = () => {
                     <div className="flex flex-col md:flex-row items-center gap-12">
                         <div className="md:w-1/2">
                             <img
-                                src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                src="/history.png"
                                 alt="School History"
                                 className="rounded-lg shadow-xl"
                             />
@@ -77,7 +77,7 @@ const About = () => {
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/3 h-64 md:h-auto">
                                 <img
-                                    src="https://images.unsplash.com/photo-1544531320-98e9fcfba8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                    src="/principal.png"
                                     alt="Principal"
                                     className="w-full h-full object-cover"
                                 />

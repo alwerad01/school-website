@@ -62,7 +62,7 @@ const Home = () => {
                             <div className="relative max-w-md mx-auto">
                                 <div className="absolute -top-4 -left-4 w-20 h-20 md:w-24 md:h-24 bg-secondary/20 rounded-full blur-xl"></div>
                                 <img
-                                    src="https://images.unsplash.com/photo-1544531320-98e9fcfba8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    src="/principal.png"
                                     alt="Principal"
                                     className="rounded-lg shadow-2xl relative z-10 w-full"
                                 />
