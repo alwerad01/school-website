@@ -12,7 +12,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/school-website">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
