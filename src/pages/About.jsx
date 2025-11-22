@@ -77,7 +77,7 @@ const About = () => {
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/3 h-64 md:h-auto">
                                 <img
-                                    src="/principal.png"
+                                    src="/principal.jpg"
                                     alt="Principal"
                                     className="w-full h-full object-cover"
                                 />
