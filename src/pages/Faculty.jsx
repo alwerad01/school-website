@@ -8,37 +8,37 @@ const Faculty = () => {
             name: 'Dr. Alwerad Khan',
             role: 'Principal',
             subject: 'Education Management',
-            image: 'https://images.unsplash.com/photo-1544531320-98e9fcfba8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+            image: 'https://ui-avatars.com/api/?name=Alwerad+Khan&size=400&background=10b981&color=fff&bold=true'
         },
         {
             name: 'Mr. Robert Smith',
             role: 'Vice Principal',
             subject: 'Mathematics',
-            image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+            image: 'https://ui-avatars.com/api/?name=Robert+Smith&size=400&background=065f46&color=fff&bold=true'
         },
         {
             name: 'Ms. Emily Davis',
             role: 'Senior Teacher',
             subject: 'English Literature',
-            image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+            image: 'https://ui-avatars.com/api/?name=Emily+Davis&size=400&background=10b981&color=fff&bold=true'
         },
         {
             name: 'Mr. James Wilson',
             role: 'HOD Science',
             subject: 'Physics',
-            image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+            image: 'https://ui-avatars.com/api/?name=James+Wilson&size=400&background=065f46&color=fff&bold=true'
         },
         {
             name: 'Ms. Jessica Brown',
             role: 'Teacher',
             subject: 'Biology',
-            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+            image: 'https://ui-avatars.com/api/?name=Jessica+Brown&size=400&background=10b981&color=fff&bold=true'
         },
         {
             name: 'Mr. David Miller',
             role: 'Sports Director',
             subject: 'Physical Education',
-            image: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+            image: 'https://ui-avatars.com/api/?name=David+Miller&size=400&background=065f46&color=fff&bold=true'
         }
     ];
 

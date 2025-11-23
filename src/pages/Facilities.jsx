@@ -8,37 +8,37 @@ const Facilities = () => {
             title: 'Science Labs',
             desc: 'State-of-the-art Physics, Chemistry, and Biology labs equipped with modern apparatus for practical learning.',
             icon: <FlaskConical size={40} />,
-            image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            image: 'https://placehold.co/600x400/10b981/ffffff?text=Science+Labs'
         },
         {
             title: 'Library',
             desc: 'A vast collection of books, journals, and digital resources to foster a love for reading and research.',
             icon: <Book size={40} />,
-            image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            image: 'https://placehold.co/600x400/065f46/ffffff?text=Library'
         },
         {
             title: 'Sports Complex',
             desc: 'Indoor and outdoor sports facilities including basketball courts, football field, and swimming pool.',
             icon: <Trophy size={40} />,
-            image: 'https://images.unsplash.com/photo-1526232761682-d26e03ac148e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            image: 'https://placehold.co/600x400/10b981/ffffff?text=Sports+Complex'
         },
         {
             title: 'Transportation',
             desc: 'Safe and comfortable bus service covering all major routes in the city with GPS tracking.',
             icon: <Bus size={40} />,
-            image: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            image: 'https://placehold.co/600x400/065f46/ffffff?text=Transportation'
         },
         {
             title: 'Cafeteria',
             desc: 'Hygienic and nutritious meals prepared in-house, catering to diverse dietary requirements.',
             icon: <Utensils size={40} />,
-            image: 'https://images.unsplash.com/photo-1577308856961-8e9ec50d0c6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            image: 'https://placehold.co/600x400/10b981/ffffff?text=Cafeteria'
         },
         {
             title: 'Medical Room',
             desc: 'Full-time nurse and visiting doctor to attend to any medical emergencies and regular health checkups.',
             icon: <Stethoscope size={40} />,
-            image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+            image: 'https://placehold.co/600x400/065f46/ffffff?text=Medical+Room'
         }
     ];
 
