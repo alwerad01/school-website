@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Bell, Calendar, BookOpen, Users, Trophy, ArrowRight } from 'lucide-react';
 import Hero from '../components/Hero';
 import Section from '../components/Section';
+import principalImg from '../assets/images/principal.jpg';
 
 const Home = () => {
     const announcements = [
@@ -25,10 +26,10 @@ const Home = () => {
             {/* Announcements Section */}
             <div className="bg-white relative -mt-20 z-20 container mx-auto px-4 shadow-xl rounded-lg max-w-5xl">
                 <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-100">
-                    <div className="p-4 md:p-6 bg-secondary text-white md:rounded-l-lg flex items-center justify-between">
+                    <div className="p-4 md:p-6 bg-secondary text-primary md:rounded-l-lg flex items-center justify-between">
                         <div>
                             <h3 className="text-lg md:text-xl font-bold mb-1">Latest News</h3>
-                            <p className="text-white/80 text-xs md:text-sm">Stay updated with school activities</p>
+                            <p className="text-primary/80 text-xs md:text-sm">Stay updated with school activities</p>
                         </div>
                         <Bell size={28} className="md:hidden" />
                         <Bell size={32} className="hidden md:block" />
@@ -62,7 +63,7 @@ const Home = () => {
                             <div className="relative max-w-md mx-auto">
                                 <div className="absolute -top-4 -left-4 w-20 h-20 md:w-24 md:h-24 bg-secondary/20 rounded-full blur-xl"></div>
                                 <img
-                                    src={`${import.meta.env.BASE_URL}principal.jpg`}
+                                    src={principalImg}
                                     alt="Principal"
                                     className="rounded-lg shadow-2xl relative z-10 w-full"
                                 />

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Award, Target, History, Users } from 'lucide-react';
 import Section from '../components/Section';
+import historyImg from '../assets/images/history.png';
+import principalImg from '../assets/images/principal.jpg';
 
 const About = () => {
     return (
@@ -49,7 +51,7 @@ const About = () => {
                     <div className="flex flex-col md:flex-row items-center gap-12">
                         <div className="md:w-1/2">
                             <img
-                                src={`${import.meta.env.BASE_URL}history.png`}
+                                src={historyImg}
                                 alt="School History"
                                 className="rounded-lg shadow-xl"
                             />
@@ -77,7 +79,7 @@ const About = () => {
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/3 h-64 md:h-auto">
                                 <img
-                                    src={`${import.meta.env.BASE_URL}principal.jpg`}
+                                    src={principalImg}
                                     alt="Principal"
                                     className="w-full h-full object-cover"
                                 />

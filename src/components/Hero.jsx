@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import heroBg from '../assets/images/hero-bg.png';
 
 const Hero = () => {
     return (
@@ -9,7 +10,7 @@ const Hero = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src={`${import.meta.env.BASE_URL}hero-bg.png`}
+                    src={heroBg}
                     alt="School Campus"
                     className="w-full h-full object-cover"
                 />
@@ -45,7 +46,7 @@ const Hero = () => {
                 >
                     <Link
                         to="/admissions"
-                        className="bg-secondary hover:bg-secondary-light text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-base md:text-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2"
+                        className="bg-secondary hover:bg-secondary-light text-primary px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-base md:text-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2"
                     >
                         Apply Now <ArrowRight size={20} />
                     </Link>

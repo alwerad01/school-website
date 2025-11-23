@@ -8,14 +8,14 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#0f172a', // Slate 900
-                    light: '#1e293b', // Slate 800
+                    DEFAULT: '#065f46', // Emerald 800
+                    light: '#047857', // Emerald 700
                 },
                 secondary: {
-                    DEFAULT: '#f59e0b', // Amber 500
-                    light: '#fbbf24', // Amber 400
+                    DEFAULT: '#10b981', // Emerald 500
+                    light: '#34d399', // Emerald 400
                 },
-                accent: '#0ea5e9', // Sky 500
+                accent: '#facc15', // Yellow 400
             },
             fontFamily: {
                 sans: ['Roboto', 'sans-serif'],
